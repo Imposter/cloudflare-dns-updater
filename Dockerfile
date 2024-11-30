@@ -11,4 +11,4 @@ ENV CLOUDFLARE_API_KEY <api_key>
 ENV CLOUDFLARE_ZONE_ID <zone_id>
 ENV CLOUDFLARE_DNS_RECORDS <dns_records>
 
-CMD ["python", "main.py"]
+CMD ["python", "-u", "main.py"]
